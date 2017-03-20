@@ -325,7 +325,7 @@ ol.bulleted {
 }
 
 /* embellishment */
-
+ 
 .bigshadow {
     box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
 }
@@ -339,4 +339,33 @@ ol.bulleted {
 .visible {
 
     	transform:translateX(0);
+}
+
+.btn {
+    text-align: center; 
+    padding: .5em 1em;
+    text-decoration: none;
+    cursor: pointer;
+    border-radius: .3em;
+    border:2px solid $color_accent_bg;
+
+    transition: all .3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+     font-family : inherit;
+    letter-spacing: .1em;
+   transition: opacity 0.3s ease;
+opacity:.8;
+    border-radius:.3rem;
+    &:hover {
+        opacity: 1;
+    }
+}
+
+.btn_solid {
+    color: #fff;
+    background:$color_accent_bg;
+}
+.btn_outline {
+    color:$color_accent_bg;
 }

@@ -298,4 +298,31 @@ ol.bulleted li {
   -webkit-transform: translateX(0);
   transform: translateX(0); }
 
+.btn {
+  text-align: center;
+  padding: .5em 1em;
+  text-decoration: none;
+  cursor: pointer;
+  border-radius: .3em;
+  border: 2px solid #44f;
+  -webkit-transition: all .3s ease;
+  transition: all .3s ease;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-family: inherit;
+  letter-spacing: .1em;
+  -webkit-transition: opacity 0.3s ease;
+  transition: opacity 0.3s ease;
+  opacity: .8;
+  border-radius: .3rem; }
+  .btn:hover {
+    opacity: 1; }
+
+.btn_solid {
+  color: #fff;
+  background: #44f; }
+
+.btn_outline {
+  color: #44f; }
+
 /*# sourceMappingURL=style.css.map */
