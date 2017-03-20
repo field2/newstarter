@@ -16,6 +16,7 @@ $(window).scroll(function() {
     $('.navicon').removeClass('close');
     $('.navicon').addClass('arrow_up');
   } else {
-    $('.navicon').removeClass('arrow_up');
+    $('.navicon').removeClass('arrow_up');   
   }
-});
+}); 
+alert('rerere');
