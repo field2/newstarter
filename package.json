@@ -4,7 +4,7 @@
   "description": "a starter framework for basic sites",
   "main": "gulpfile.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "gulp": "gulp"
   },
   "author": "Ben Dunkle",
   "devDependencies": {
