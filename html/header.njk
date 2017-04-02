@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8" />
+	<title>Starter framework :: {{ pagetitle }}</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" href="/css/style.css" /> 
+</head>
+
+<body class="{{ pagecss }}">
+	<header>
+		<div class="row padding_mobile fixed_width jcsb aic padding_top padding_bottom">
+			<h1>Starter code by Ben Dunkle (in progress)</h1>
+		</div>
+	</header> 
+	<nav id="primary"> 
+		<ul class="row padding_mobile fixed_width padding_top padding_bottom invisible">
+			<li {%if currentpage =='home' %}class="active" {% endif %}>
+				<a href="index.html">Home</a>
+			</li>
+			<li {%if currentpage =='about' %}class="active" {% endif %}>
+				<a href="about.html">About</a>
+			</li>
+			<li {%if currentpage =='portfolio' %}class="active" {% endif %}>				
+				<a href="portfolio.html">Portfolio</a>
+			</li>
+			<li {%if currentpage =='blog' %}class="active" {% endif %}>				
+				<a href="blog.html">Blog</a>
+			</li>			
+			<li {%if currentpage =='contact' %}class="active" {% endif %}>				
+				<a href="contact.html">Contact</a>
+			</li>
+
+		</ul>
+		<div class="navicon">
+			<div class="bar top"></div>
+			<div class="bar middle"></div>
+			<div class="bar bottom"></div>
+		</div>
+		<!-- .navicon -->
+	</nav>
+	<!-- /#primary  -->
