@@ -9,18 +9,18 @@
   "author": "Ben Dunkle",
   "devDependencies": {
     "browser-sync": "^2.17.1",
+    "pump": "1.0.2",
     "gulp": "^3.8.11",
-    "gulp-autoprefixer": "^2.1.0",
     "gulp-cli": "^1.2.2",
-    "gulp-imagemin": "^3.0.3",
     "gulp-nunjucks": "^2.0.0",
     "gulp-nunjucks-render": "^2.0.0",
+    "gulp-autoprefixer": "^2.1.0",
+    "gulp-imagemin": "^3.0.3",
+    "gulp-uglify": "2.1.0",
     "gulp-plumber": "^1.1.0",
     "gulp-sass": "^2.3.2",
     "gulp-sourcemaps": "^1.5",
     "gulp-svg-symbols": "^2.0.2",
-    "gulp-uglify": "2.1.0",
-    "gulp-util": "^2.2.0",
-    "pump": "1.0.2"
+    "gulp-util": "^2.2.0"
   }
 }
